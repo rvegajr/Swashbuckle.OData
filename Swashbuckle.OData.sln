@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swashbuckle.OData", "Swashbuckle.OData\Swashbuckle.OData.csproj", "{AA7B6C37-092E-46EC-81A3-9865EFD646F1}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EF4A9CB1-3309-4630-9980-10A5E11D4101}"
 	ProjectSection(SolutionItems) = preProject
 		appveyor.yml = appveyor.yml
@@ -13,11 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swashbuckle.OData.Sample", "Swashbuckle.OData.Sample\Swashbuckle.OData.Sample.csproj", "{0949DAEA-E845-4268-AC3B-A336BE6F8863}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swashbuckle.OData.Tests", "Swashbuckle.OData.Tests\Swashbuckle.OData.Tests.csproj", "{AB073712-9D9C-42ED-8DEE-8B7FBD322C27}"
-EndProject
-Project("{FF286327-C783-4F7A-AB73-9BCBAD0D4460}") = "Swashbuckle.OData.NuGetPackage", "Swashbuckle.OData.NuGetPackage\Swashbuckle.OData.NuGetPackage.nuproj", "{CADA82A0-F6FF-45D0-8EE5-9BC6B936BE5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swashbuckle.OData", "Swashbuckle.OData\Swashbuckle.OData.csproj", "{084CB0BA-38EF-4636-AB2D-2231C1082A92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,22 +19,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AA7B6C37-092E-46EC-81A3-9865EFD646F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AA7B6C37-092E-46EC-81A3-9865EFD646F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AA7B6C37-092E-46EC-81A3-9865EFD646F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AA7B6C37-092E-46EC-81A3-9865EFD646F1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0949DAEA-E845-4268-AC3B-A336BE6F8863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0949DAEA-E845-4268-AC3B-A336BE6F8863}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0949DAEA-E845-4268-AC3B-A336BE6F8863}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0949DAEA-E845-4268-AC3B-A336BE6F8863}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AB073712-9D9C-42ED-8DEE-8B7FBD322C27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AB073712-9D9C-42ED-8DEE-8B7FBD322C27}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AB073712-9D9C-42ED-8DEE-8B7FBD322C27}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AB073712-9D9C-42ED-8DEE-8B7FBD322C27}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CADA82A0-F6FF-45D0-8EE5-9BC6B936BE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CADA82A0-F6FF-45D0-8EE5-9BC6B936BE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{084CB0BA-38EF-4636-AB2D-2231C1082A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{084CB0BA-38EF-4636-AB2D-2231C1082A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{084CB0BA-38EF-4636-AB2D-2231C1082A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{084CB0BA-38EF-4636-AB2D-2231C1082A92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {983EE360-06E5-4337-984D-E45669617C6B}
 	EndGlobalSection
 EndGlobal

@@ -9,7 +9,7 @@ using Swashbuckle.OData.Descriptions;
 using Swashbuckle.Swagger;
 using System.Xml.XPath;
 using System.Web.Http.Dispatcher;
-using System.Web.OData;
+using Microsoft.AspNet.OData;
 
 namespace Swashbuckle.OData
 {
@@ -193,7 +193,7 @@ namespace Swashbuckle.OData
         /// <param name="assembliesResolver">custom assemblies resolver.</param>
         public void SetAssembliesResolver(IAssembliesResolver assembliesResolver)
         {
-            System.Web.OData.TypeHelper.SetAssembliesResolver(assembliesResolver);
+            Microsoft.AspNet.OData.TypeHelper.SetAssembliesResolver(assembliesResolver);
         }
 
         /// <summary>
